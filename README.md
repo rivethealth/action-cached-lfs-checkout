@@ -24,8 +24,8 @@ count towards that limit. To _cache_ the LFS downloads, you can instead use this
 Simply replace the above by
 
 ```yaml
-- name: Checkout code
-  uses: nschloe/action-cached-lfs-checkout@v1
+- name: Cached LFS checkout
+  uses: Nutella399/action-cached-lfs-checkout@v1.0
   # Use these to explicitly include/exclude files:
   # with:
   #   include: "*"
