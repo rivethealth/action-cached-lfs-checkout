@@ -15,7 +15,7 @@ when used with
 
 ```yaml
 - name: Checkout code
-  uses: actions/checkout@v2
+  uses: actions/checkout@v4
   with:
     lfs: true
 ```
@@ -25,7 +25,7 @@ Simply replace the above by
 
 ```yaml
 - name: Cached LFS checkout
-  uses: Nutella399/action-cached-lfs-checkout@v1.0
+  uses: rivethealth/action-cached-lfs-checkout@v1.1
   # Use these to explicitly include/exclude files:
   # with:
   #   include: "*"
